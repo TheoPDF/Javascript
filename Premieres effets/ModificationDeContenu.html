@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Premiers effets&nbsp;: Modification du contenu</title>
+</head>
+<body>
+<h1>Modification du contenu</h1>
+<h3>Exemple de <i>rollover</i></h3>
+<p>
+<img src="1cercle.gif" width="16" height="16" alt="bouton1" onmouseover="this.src='2cercle.gif'" onmouseout="this.src='1cercle.gif'">
+</p>
+<h3>Exemple de modification dynamique de texte</h3>
+<span 
+    onclick="this.innerHTML='Un petit texte avec un <b>texte en gras</b> au milieu'"
+    ondblclick="this.innerHTML='Un petit texte avec un <i>texte en italique</i> au milieu'"
+    style="text-align:center">
+    Un petit texte avec un <i>texte en italique</i> au milieu
+</span>
+</body>
+</html>

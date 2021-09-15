@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+  <title>Utilisation de while</title>
+  <meta charset="UTF-8">
+  <script>
+  
+  </script>
+</head>
+<body>
+
+<h1>Utilisation de while</h1>
+
+<p>Cliquez sur le bouton pour lancer la fonction&nbsp;: <button onclick="testWhile()">Lancer la fonction</button></p>
+
+</body>
+<script>
+    function testWhile(){
+        do {
+            var saisie = prompt('saisir le une chainende caractères contenant le symbol "');
+        } while (/\"/.test(saisie) == false);
+        alert(saisie);
+    }
+</script>
+</html>
